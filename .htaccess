@@ -1,0 +1,12 @@
+#tắt chức năng hiển thị thư mục
+Options All -Indexes
+
+#không cho phép hiển thị thư mục
+IndexIgnore *
+
+#giới hạn ip truy cập
+#<Limit GET POST PUT>
+#order deny,allow
+#deny from all
+#allow from 42.114.94.218/16
+#</Limit>

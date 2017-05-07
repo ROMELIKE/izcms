@@ -1,0 +1,11 @@
+#tắt chức năng hiển thị thư mục
+Options All -Indexes
+
+#không cho phép hiển thị thư mục
+IndexIgnore *
+
+#không cho phép vào bất cứ 1file nào
+<FileMatch '^.*$'>
+Order deny,allow
+deny from all
+</FileMatch>
